@@ -18,13 +18,3 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-
-
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    try:
-        a = 1 / 0
-    except Exception as e:
-        logging.info("Hi")
-        raise CustomException(e, sys)
