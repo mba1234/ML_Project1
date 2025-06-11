@@ -1,7 +1,8 @@
-pandas
-numpy
-seaborn
-scikit-learn
+# pandas
+# numpy
+# seaborn
+# scikit-learn
 catboost
 xgboost
--e .
+# dill
+# -e .
